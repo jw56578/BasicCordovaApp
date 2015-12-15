@@ -43,7 +43,10 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
+        if(id === "deviceready"){
+            alert('uh what');
+            window.location.href = "http://google.com";
+        }
         console.log('Received Event: ' + id);
     }
 };
