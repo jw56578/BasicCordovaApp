@@ -43,10 +43,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        if(id === "deviceready"){
-            alert('ready');
-            window.location.href="http://www.google.com";
-        }
+
         console.log('Received Event: ' + id);
     }
 };
