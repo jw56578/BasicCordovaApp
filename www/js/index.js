@@ -44,8 +44,8 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
         if(id === "deviceready"){
-            alert('uh what');
-            window.location.href = "http://google.com";
+            alert('off to the normal web site');
+            window.location.href = "http://jw56578.github.io/www/?platform=android#/app/playlists";
         }
         console.log('Received Event: ' + id);
     }
